@@ -1,0 +1,15 @@
+        __gaTracker('require', 'ecommerce'); // Enable Ecommerce Tracking
+        __gaTracker('require', 'linker');
+        
+        __gaTracker(function (tracker) {
+            var tracker = __gaTracker.getAll()[0];
+            var linker = new window.gaplugins.Linker(tracker);
+            var destinationLink = linker.decorate(document.getElementById("gaTag"));
+    
+    
+    
+            var tempHrefVal = $("#gaTag").attr("href");
+            var finalGaString = "?" + tempHrefVal.split("?")[1]+"#";
+            redirectUrl = redirectUrl.replace("#",finalGaString);
+    
+        });
