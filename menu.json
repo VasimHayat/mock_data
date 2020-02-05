@@ -92,7 +92,7 @@
           "url": "zip/main/schedule",
           "isWalkthruConfigured": true,
           "showDropIcon": false,
-          "menuIdentifierText": "Schedule",
+          "menuIdentifierText": "Components",
           "helpTextLBL": "Schedule_HelpText_LBL",
           "name": "Schedule_LBL",
           "recalAccess": false,
