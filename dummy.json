@@ -1,0 +1,163 @@
+[
+        {
+          "staticPageUrl": "https://hubworks.com/zip-shiftbook.html",
+          "appName": "Zip Shift Book",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 5
+        },
+        {
+          "appName": "POS Connector",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 12
+        },
+        {
+          "appName": "Plum Digital Signage",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 19
+        },
+        {
+          "appName": "Zip Chitchat",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 18
+        },
+        {
+          "appName": "Admin App",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 51
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-clock.html",
+          "appName": "Zip Clock",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 2
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-forecast.html",
+          "appName": "Zip Forecast",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 6
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-haccp.html",
+          "appName": "Zip HACCP",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 11
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-inventory.html",
+          "appName": "Zip Inventory",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 13
+        },
+        {
+          "appName": "Zip Learning",
+          "isDisabled": false,
+          "isActive": false,
+          "primaryKey": 21
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-ordering.html",
+          "appName": "Zip Ordering",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 14
+        },
+        {
+          "appName": "Zip POS Dashboard",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 17
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-schedules.html",
+          "appName": "Zip Schedules",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 1
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/autogas.html",
+          "appName": "Auto Gas",
+          "isDisabled": false,
+          "isActive": false,
+          "primaryKey": 9
+        },
+        {
+          "appName": "Zip Supply Chain",
+          "isDisabled": false,
+          "isActive": false,
+          "primaryKey": 8
+        },
+        {
+          "appName": "Zip Temperature",
+          "isDisabled": false,
+          "isActive": false,
+          "primaryKey": 15
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-posdashboard.html",
+          "appName": "Zip POS Dashboard_Old",
+          "isDisabled": false,
+          "isActive": false,
+          "primaryKey": 4
+        },
+        {
+          "appName": "My POS Connection",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 16
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-checklist.html",
+          "appName": "Zip Checklist",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 3
+        },
+        {
+          "staticPageUrl": "https://hubworks.com/zip-reporting.html",
+          "appName": "Zip Reporting",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 10
+        },
+        {
+          "appName": "Plum POS",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 20
+        },
+        {
+          "appName": "Any Connector",
+          "isDisabled": false,
+          "isActive": false,
+          "primaryKey": 23
+        },
+        {
+          "appName": "My Connection",
+          "isDisabled": false,
+          "isActive": false,
+          "primaryKey": 24
+        },
+        {
+          "appName": "ERS Billing",
+          "isDisabled": false,
+          "isActive": false,
+          "primaryKey": 25
+        },
+        {
+          "appName": "Zip Timekeeping",
+          "isDisabled": false,
+          "isActive": true,
+          "primaryKey": 22
+        }
+      ]
