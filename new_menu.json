@@ -1,0 +1,45 @@
+{
+  "menuDataHash": {
+    "menuData": {
+      "isEnableOnUI": true,
+      "labelIDArray": [
+        "Menu_ZipSch_Owner_Enterprise_LBL",
+        "Menu_ZipSch_Owner_Enterprise_HVR",
+        "Zip_Schedule_LBL",
+        "Menu_ZipSch_Owner_Enterprise_LBL",
+        "Menu_ZipSch_Owner_Enterprise_HVR",
+        "Zip_Schedule_LBL",
+        "Zip_Schedule_LBL"
+      ],
+      "menuItemArray": [
+        {
+          "name": "Menu_Home_LBL",
+          "class": "active",
+          "url": "zip/main/dashboard",
+          "id": "Menu_Home",
+          "smallIcon": "fn-global-home",
+          "fontIcon": "fn-global-home",
+          "menuIdentifierText": "Menu_Home"
+        },
+        {
+          "name": "Employees_LBL",
+          "class": "active",
+          "url": "zip/main/employee",
+          "id": "Menu_Emp",
+          "smallIcon": "fn-global-zipCheckList",
+          "fontIcon": "fn-global-zipCheckList",
+          "menuIdentifierText": "Employees"
+        }
+      ],
+      "showBreadcrum": false,
+      "isActive": true,
+      "parentID": "Menu_ZipSch_Owner_Enterprise",
+      "menuItemIDArray": [
+        "Menu_Home",
+        "Menu_Emp"
+      ],
+      "name": "Zip_Schedule_LBL",
+      "id": "Menu_ZipSch_Owner_Standard"
+    }
+  }
+}
