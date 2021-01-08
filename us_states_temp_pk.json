@@ -1,0 +1,297 @@
+[
+  {
+    "primaryKey": 1,
+    "name": "Alabama",
+    "id": "AL"
+  },
+  {
+    "primaryKey": 2,
+    "name": "Alaska",
+    "id": "AK"
+  },
+  {
+    "primaryKey": 3,
+    "name": "American Samoa",
+    "id": "AS"
+  },
+  {
+    "primaryKey": 4,
+    "name": "Arizona",
+    "id": "AZ"
+  },
+  {
+    "primaryKey": 5,
+    "name": "Arkansas",
+    "id": "AR"
+  },
+  {
+    "primaryKey": 6,
+    "name": "California",
+    "id": "CA"
+  },
+  {
+    "primaryKey": 7,
+    "name": "Colorado",
+    "id": "CO"
+  },
+  {
+    "primaryKey": 8,
+    "name": "Connecticut",
+    "id": "CT"
+  },
+  {
+    "primaryKey": 9,
+    "name": "Delaware",
+    "id": "DE"
+  },
+  {
+    "primaryKey": 10,
+    "name": "District Of Columbia",
+    "id": "DC"
+  },
+  {
+    "primaryKey": 11,
+    "name": "Federated States Of Micronesia",
+    "id": "FM"
+  },
+  {
+    "primaryKey": 12,
+    "name": "Florida",
+    "id": "FL"
+  },
+  {
+    "primaryKey": 13,
+    "name": "Georgia",
+    "id": "GA"
+  },
+  {
+    "primaryKey": 14,
+    "name": "Guam",
+    "id": "GU"
+  },
+  {
+    "primaryKey": 15,
+    "name": "Hawaii",
+    "id": "HI"
+  },
+  {
+    "primaryKey": 16,
+    "name": "Idaho",
+    "id": "ID"
+  },
+  {
+    "primaryKey": 17,
+    "name": "Illinois",
+    "id": "IL"
+  },
+  {
+    "primaryKey": 18,
+    "name": "Indiana",
+    "id": "IN"
+  },
+  {
+    "primaryKey": 19,
+    "name": "Iowa",
+    "id": "IA"
+  },
+  {
+    "primaryKey": 20,
+    "name": "Kansas",
+    "id": "KS"
+  },
+  {
+    "primaryKey": 21,
+    "name": "Kentucky",
+    "id": "KY"
+  },
+  {
+    "primaryKey": 22,
+    "name": "Louisiana",
+    "id": "LA"
+  },
+  {
+    "primaryKey": 23,
+    "name": "Maine",
+    "id": "ME"
+  },
+  {
+    "primaryKey": 24,
+    "name": "Marshall Islands",
+    "id": "MH"
+  },
+  {
+    "primaryKey": 25,
+    "name": "Maryland",
+    "id": "MD"
+  },
+  {
+    "primaryKey": 26,
+    "name": "Massachusetts",
+    "id": "MA"
+  },
+  {
+    "primaryKey": 27,
+    "name": "Michigan",
+    "id": "MI"
+  },
+  {
+    "primaryKey": 28,
+    "name": "Minnesota",
+    "id": "MN"
+  },
+  {
+    "primaryKey": 29,
+    "name": "Mississippi",
+    "id": "MS"
+  },
+  {
+    "primaryKey": 30,
+    "name": "Missouri",
+    "id": "MO"
+  },
+  {
+    "primaryKey": 31,
+    "name": "Montana",
+    "id": "MT"
+  },
+  {
+    "primaryKey": 32,
+    "name": "Nebraska",
+    "id": "NE"
+  },
+  {
+    "primaryKey": 33,
+    "name": "Nevada",
+    "id": "NV"
+  },
+  {
+    "primaryKey": 34,
+    "name": "New Hampshire",
+    "id": "NH"
+  },
+  {
+    "primaryKey": 35,
+    "name": "New Jersey",
+    "id": "NJ"
+  },
+  {
+    "primaryKey": 36,
+    "name": "New Mexico",
+    "id": "NM"
+  },
+  {
+    "primaryKey": 37,
+    "name": "New York",
+    "id": "NY"
+  },
+  {
+    "primaryKey": 38,
+    "name": "North Carolina",
+    "id": "NC"
+  },
+  {
+    "primaryKey": 39,
+    "name": "North Dakota",
+    "id": "ND"
+  },
+  {
+    "primaryKey": 40,
+    "name": "Northern Mariana Islands",
+    "id": "MP"
+  },
+  {
+    "primaryKey": 41,
+    "name": "Ohio",
+    "id": "OH"
+  },
+  {
+    "primaryKey": 42,
+    "name": "Oklahoma",
+    "id": "OK"
+  },
+  {
+    "primaryKey": 43,
+    "name": "Oregon",
+    "id": "OR"
+  },
+  {
+    "primaryKey": 44,
+    "name": "Palau",
+    "id": "PW"
+  },
+  {
+    "primaryKey": 45,
+    "name": "Pennsylvania",
+    "id": "PA"
+  },
+  {
+    "primaryKey": 46,
+    "name": "Puerto Rico",
+    "id": "PR"
+  },
+  {
+    "primaryKey": 47,
+    "name": "Rhode Island",
+    "id": "RI"
+  },
+  {
+    "primaryKey": 48,
+    "name": "South Carolina",
+    "id": "SC"
+  },
+  {
+    "primaryKey": 49,
+    "name": "South Dakota",
+    "id": "SD"
+  },
+  {
+    "primaryKey": 50,
+    "name": "Tennessee",
+    "id": "TN"
+  },
+  {
+    "primaryKey": 51,
+    "name": "Texas",
+    "id": "TX"
+  },
+  {
+    "primaryKey": 52,
+    "name": "Utah",
+    "id": "UT"
+  },
+  {
+    "primaryKey": 53,
+    "name": "Vermont",
+    "id": "VT"
+  },
+  {
+    "primaryKey": 54,
+    "name": "Virgin Islands",
+    "id": "VI"
+  },
+  {
+    "primaryKey": 55,
+    "name": "Virginia",
+    "id": "VA"
+  },
+  {
+    "primaryKey": 56,
+    "name": "Washington",
+    "id": "WA"
+  },
+  {
+    "primaryKey": 57,
+    "name": "West Virginia",
+    "id": "WV"
+  },
+  {
+    "primaryKey": 58,
+    "name": "Wisconsin",
+    "id": "WI"
+  },
+  {
+    "primaryKey": 59,
+    "name": "Wyoming",
+    "id": "WY"
+  }
+]
