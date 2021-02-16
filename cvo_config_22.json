@@ -1,0 +1,4152 @@
+{
+  "settings": {
+    "lookupHash": {
+      "400": {
+        "id": 400,
+        "textDesc": "Drinks",
+        "details": {
+          "100": {
+            "id": 100,
+            "textDesc": "Small",
+            "price": 30
+          },
+          "101": {
+            "id": 101,
+            "textDesc": "Medium",
+            "price": 55
+          },
+          "102": {
+            "id": 102,
+            "textDesc": "Large",
+            "price": 90
+          },
+          "103": {
+            "id": 103,
+            "textDesc": "Extra Large",
+            "price": 110
+          }
+        }
+      },
+      "401": {
+        "id": 401,
+        "textDesc": "Sides",
+        "details": {
+          "104": {
+            "id": 104,
+            "textDesc": "Small",
+            "price": 236
+          },
+          "105": {
+            "id": 105,
+            "textDesc": "Medium",
+            "price": 276
+          },
+          "106": {
+            "id": 106,
+            "textDesc": "Large",
+            "price": 311
+          }
+        }
+      },
+      "600": {
+        "id": 600,
+        "textDesc": "Drinks",
+        "details": {
+          "10": {
+            "id": 10,
+            "textDesc": "Easy",
+            "dispalyOrder": 1
+          },
+          "11": {
+            "id": 11,
+            "textDesc": "Extra",
+            "dispalyOrder": 2
+          }
+        }
+      },
+      "601": {
+        "id": 601,
+        "textDesc": "Burger",
+        "details": {
+          "13": {
+            "id": 13,
+            "textDesc": "Easy",
+            "dispalyOrder": 1
+          },
+          "14": {
+            "id": 14,
+            "textDesc": "Extra",
+            "dispalyOrder": 2
+          }
+        }
+      },
+      "604": {
+        "id": 604,
+        "textDesc": "Sides",
+        "details": {
+          "16": {
+            "id": 16,
+            "textDesc": "Easy",
+            "dispalyOrder": 1
+          },
+          "17": {
+            "id": 17,
+            "textDesc": "Extra",
+            "dispalyOrder": 2
+          }
+        }
+      }
+    },
+    "terminals": {
+      "10": {
+        "terminalId": 10,
+        "startArea": null,
+        "enableCashPopup": false,
+        "defaultOrderClassId": 2,
+        "disableForceRing": false,
+        "employeeId": null,
+        "remotePrintOnClosed": false,
+        "dtiUrl": null,
+        "mode": "tableService",
+        "printMode": null,
+        "blockedEvents": [],
+        "name": "Bar",
+        "blockedVPrinters": [],
+        "remotePrintOrderClassId": 0,
+        "payDeviceConfig": {
+          "driver": "fake",
+          "extraParams": null,
+          "url": null,
+          "enabled": false,
+          "macaddr": null
+        },
+        "enablePoleDisplay": false,
+        "rebootTime": 0,
+        "defaultGroup": 1001,
+        "sidePanelArray": [
+          1000,
+          1001,
+          1002
+        ],
+        "bottomPanelArray": [
+          1001
+        ]
+      }
+    },
+    "itemHash": {
+      "1000": {
+        "id": 1000,
+        "textDesc": "Drink",
+        "displayOrder": 3,
+        "typeID": "ITEMGRP",
+        "recipeModArray": {
+          "6001": {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        },
+        "lkPortionID": 600,
+        "isPortionEnabled": true,
+        "portionArray": {
+          "10": {
+            "id": 10,
+            "applicableIngrArray": [
+              2000
+            ]
+          },
+          "11": {
+            "id": 11,
+            "applicableIngrArray": [
+              2000
+            ]
+          }
+        },
+        "panelArray": [
+          {
+            "textDesc": "Choose you Size",
+            "typeID": "LKVAR",
+            "id": 400,
+            "itemArray": [
+              100,
+              101,
+              102,
+              103
+            ]
+          },
+          {
+            "textDesc": "Menu Items",
+            "typeID": "MENUITEMS",
+            "itemArray": [
+              4000,
+              4001,
+              4002,
+              4003,
+              4020,
+              4021,
+              4022,
+              4023,
+              4024,
+              4025,
+              4026,
+              4027
+            ]
+          },
+          {
+            "textDesc": "Recipe",
+            "typeID": "RECIPE",
+            "itemArray": [
+              6001
+            ]
+          }
+        ]
+      },
+      "1001": {
+        "id": 1001,
+        "typeID": "ITEMGRP",
+        "textDesc": "Burger",
+        "displayOrder": 1,
+        "lkVariationID": null,
+        "recipeModArray": {
+          "6002": {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          "6003": {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          "6004": {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          "6005": {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          "6006": {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          "6007": {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          "6008": {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          "6009": {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          "6010": {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          "6011": {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          "6012": {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          "6014": {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13
+          },
+          "6015": {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14
+          }
+        },
+        "panelArray": [
+          {
+            "textDesc": "Menu Items",
+            "typeID": "MENUITEMS",
+            "itemArray": [
+              3000,
+              3001,
+              3002,
+              3010,
+              3011,
+              3012,
+              3013,
+              3014,
+              3015,
+              3016,
+              3017
+            ]
+          },
+          {
+            "textDesc": "Recipe",
+            "typeID": "RECIPE",
+            "itemArray": [
+              6002,
+              6003,
+              6004,
+              6005,
+              6006,
+              6007,
+              6008,
+              6009,
+              6010,
+              6011,
+              6012,
+              6014,
+              6015
+            ]
+          },
+          {
+            "textDesc": "Select Patty",
+            "typeID": "FQ",
+            "itemArray": [
+              2014,
+              2015,
+              2206
+            ]
+          },
+          {
+            "textDesc": "Select Cheese",
+            "typeID": "FQ",
+            "itemArray": [
+              2001,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013
+            ]
+          }
+        ],
+        "isPortionEnabled": true,
+        "lkPortionID": 601,
+        "portionArray": {
+          "13": {
+            "id": 13,
+            "applicableIngrArray": [
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2026,
+              2027,
+              2200,
+              2201
+            ]
+          },
+          "14": {
+            "id": 14,
+            "applicableIngrArray": [
+              2003,
+              2008,
+              2026,
+              2027,
+              2200,
+              2201
+            ]
+          }
+        }
+      },
+      "1002": {
+        "id": 1002,
+        "textDesc": "Sides",
+        "displayOrder": 2,
+        "typeID": "ITEMGRP",
+        "lkPortionID": 604,
+        "isPortionEnabled": true,
+        "portionArray": {
+          "16": {
+            "id": 16,
+            "applicableIngrArray": [
+              2202,
+              2203,
+              2204,
+              2205,
+              2207,
+              2208,
+              2209,
+              2210,
+              2211,
+              2212
+            ]
+          },
+          "17": {
+            "id": 17,
+            "applicableIngrArray": [
+              2202,
+              2203,
+              2204,
+              2205,
+              2207,
+              2208,
+              2209,
+              2210,
+              2211,
+              2212
+            ]
+          }
+        },
+        "recipeModArray": {
+          "6020": {
+            "id": 6020,
+            "ingrID": 2202,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          "6021": {
+            "id": 6021,
+            "ingrID": 2203,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          "6022": {
+            "id": 6022,
+            "ingrID": 2204,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          "6023": {
+            "id": 6023,
+            "ingrID": 2205,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          "6024": {
+            "id": 6024,
+            "ingrID": 2207,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          "6025": {
+            "id": 6025,
+            "ingrID": 2208,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          "6026": {
+            "id": 6026,
+            "ingrID": 2209,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          "6027": {
+            "id": 6027,
+            "fqID": 7010,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        },
+        "panelArray": [
+          {
+            "textDesc": "Choose you Size",
+            "typeID": "LKVAR",
+            "id": 401,
+            "itemArray": [
+              104,
+              105,
+              106
+            ]
+          },
+          {
+            "textDesc": "Menu Items",
+            "typeID": "MENUITEMS",
+            "itemArray": [
+              4040,
+              4041,
+              4042,
+              4044,
+              4045,
+              4046
+            ]
+          },
+          {
+            "textDesc": "Recipe",
+            "typeID": "RECIPE",
+            "itemArray": [
+              6020,
+              6021,
+              6022,
+              6023,
+              6024,
+              6025,
+              6026,
+              6027
+            ]
+          }
+        ]
+      },
+      "2000": {
+        "id": 2000,
+        "typeID": "INGR",
+        "extraTypeID": "SINGLE_ADD",
+        "textDesc": "Ice",
+        "buttonName": "Ice",
+        "itemName": "Ice",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/2000.png"
+        },
+        "displayOrder": 1,
+        "eoPortionDetailArray": {
+          "10": {
+            "portionID": 10,
+            "upcharge": 0,
+            "recipeFactor": 0
+          },
+          "11": {
+            "portionID": 11,
+            "upcharge": 0,
+            "recipeFactor": 0
+          }
+        }
+      },
+      "2001": {
+        "id": 2001,
+        "typeID": "INGR",
+        "textDesc": "Melted American cheese",
+        "buttonName": "Melted American cheese",
+        "itemName": "Melted American cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2001.png"
+        },
+        "displayOrder": 2,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2002": {
+        "id": 2002,
+        "typeID": "INGR",
+        "textDesc": "Seeded Bun",
+        "buttonName": "Seeded Bun",
+        "itemName": "Seeded Bun",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/hwdev/cvo/img/burger/2002.png"
+        },
+        "displayOrder": 3,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2003": {
+        "id": 2003,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Tomato",
+        "buttonName": "Tomato",
+        "itemName": "Tomato",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2003.png"
+        },
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "upcharge": 39,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          },
+          "14": {
+            "portionID": 14,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2004": {
+        "id": 2004,
+        "typeID": "INGR",
+        "textDesc": "Sliced Onions",
+        "buttonName": "Sliced Onions",
+        "itemName": "Sliced Onions",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2004.png"
+        },
+        "displayOrder": 5,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2005": {
+        "id": 2005,
+        "typeID": "INGR",
+        "textDesc": "Dill Pickles",
+        "buttonName": "Dill Pickles",
+        "itemName": "Dill Pickles",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2005.png"
+        },
+        "displayOrder": 6,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2006": {
+        "id": 2006,
+        "typeID": "INGR",
+        "textDesc": "Special Sauce",
+        "buttonName": "Special Sauce",
+        "itemName": "Special Sauce",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2006.png"
+        },
+        "displayOrder": 7,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2007": {
+        "id": 2007,
+        "typeID": "INGR",
+        "textDesc": "Mayonaise",
+        "buttonName": "Mayonaise",
+        "itemName": "Mayonaise",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2007.png"
+        },
+        "displayOrder": 8,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2008": {
+        "id": 2008,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Lettuce",
+        "buttonName": "Lettuce",
+        "itemName": "Lettuce",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2008.png"
+        },
+        "displayOrder": 9,
+        "upcharge": 39,
+        "extraTypeID": "SINGLE_ADD",
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          },
+          "14": {
+            "portionID": 14,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2009": {
+        "id": 2009,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Small American Cheese",
+        "buttonName": "Small American Cheese",
+        "itemName": "Small American Cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2009.png"
+        },
+        "displayOrder": 2,
+        "upcharge": 19,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2010": {
+        "id": 2010,
+        "typeID": "RECIPEMOD",
+        "textDesc": "American Cheese",
+        "buttonName": "American Cheese",
+        "itemName": "American Cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2010.png"
+        },
+        "displayOrder": 3,
+        "upcharge": 35,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2011": {
+        "id": 2011,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Cheddar Cheese",
+        "buttonName": "Cheddar Cheese",
+        "itemName": "Cheddar Cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2011.png"
+        },
+        "displayOrder": 4,
+        "upcharge": 55,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2012": {
+        "id": 2012,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Swiss Cheese",
+        "buttonName": "Swiss Cheese",
+        "itemName": "Swiss Cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2012.png"
+        },
+        "displayOrder": 5,
+        "upcharge": 35,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2013": {
+        "id": 2013,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Pepper Jack Cheese",
+        "buttonName": "Pepper Jack Cheese",
+        "itemName": "Pepper Jack Cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2013.png"
+        },
+        "displayOrder": 6,
+        "upcharge": 39,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          }
+        }
+      },
+      "2014": {
+        "id": 2014,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Char-broiled all-beef patty",
+        "buttonName": "Char-broiled all-beef patty",
+        "itemName": "Char-broiled all-beef patty",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2014.png"
+        },
+        "displayOrder": 1,
+        "eoPortionDetailArray": [],
+        "fqArray": [
+          8000
+        ],
+        "calcRecipeArray": []
+      },
+      "2015": {
+        "id": 2015,
+        "typeID": "INGR",
+        "textDesc": "100% plant-based patty",
+        "buttonName": "100% plant-based patty",
+        "itemName": "100% plant-based patty",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2015.png"
+        },
+        "displayOrder": 1,
+        "eoPortionDetailArray": []
+      },
+      "2019": {
+        "id": 2019,
+        "typeID": "RECIPEMOD",
+        "extraTypeIID": "",
+        "textDesc": "Premium Bun",
+        "buttonName": "Premium Bun",
+        "itemName": "Premium Bun",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2019.png"
+        },
+        "displayOrder": 2,
+        "upcharge": 25
+      },
+      "2023": {
+        "id": 2023,
+        "typeID": "INGR",
+        "textDesc": "Rare",
+        "buttonName": "Rare",
+        "itemName": "Rare",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2023.png"
+        },
+        "displayOrder": 1
+      },
+      "2024": {
+        "id": 2024,
+        "typeID": "INGR",
+        "textDesc": "Medium",
+        "buttonName": "Medium",
+        "itemName": "Medium",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2024.png"
+        },
+        "displayOrder": 2
+      },
+      "2025": {
+        "id": 2025,
+        "typeID": "INGR",
+        "textDesc": "Well",
+        "buttonName": "Well",
+        "itemName": "Well",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2025.png"
+        },
+        "displayOrder": 3
+      },
+      "2026": {
+        "id": 2026,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Bacon",
+        "buttonName": "Bacon",
+        "itemName": "Bacon",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2026.png"
+        },
+        "upcharge": 245,
+        "displayOrder": 11,
+        "extraTypeID": "SINGLE_ADD",
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          },
+          "14": {
+            "portionID": 14,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2027": {
+        "id": 2027,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Avocado",
+        "buttonName": "Avocado",
+        "itemName": "Avocado",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2027.jpeg"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 10,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          },
+          "14": {
+            "portionID": 14,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2200": {
+        "id": 2200,
+        "typeID": "RECIPEMOD",
+        "textDesc": "BBQ Sauce",
+        "buttonName": "BBQ Sauce",
+        "itemName": "BBQ Sauce",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2200.jpg"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 10,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          },
+          "14": {
+            "portionID": 14,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2201": {
+        "id": 2201,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Mustard",
+        "buttonName": "Mustard",
+        "itemName": "Mustard",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2201.png"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 10,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          },
+          "14": {
+            "portionID": 14,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2202": {
+        "id": 2202,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Premium Quality Potato",
+        "buttonName": "Premium Quality Potato",
+        "itemName": "Premium Quality Potato",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2202.png"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 1,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2203": {
+        "id": 2203,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Skin On",
+        "buttonName": "Skin On",
+        "itemName": "Skin On",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2203.png"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 2,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2204": {
+        "id": 2204,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Natural Cut",
+        "buttonName": "Natural Cut",
+        "itemName": "Natural Cut",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2204.png"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 3,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2205": {
+        "id": 2205,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Salt",
+        "buttonName": "Salt",
+        "itemName": "Salt",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2205.png"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2206": {
+        "id": 2206,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Small meat Patty",
+        "buttonName": "Small meat Patty",
+        "itemName": "Small meat Patty",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/2206.png"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "eoPortionDetailArray": {
+          "13": {
+            "portionID": 13,
+            "recipeFactor": 0.5
+          },
+          "14": {
+            "portionID": 14,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2207": {
+        "id": 2207,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Avocado",
+        "buttonName": "Avocado",
+        "itemName": "Avocado",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2207.jpeg"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2,
+            "upcharge": 100
+          }
+        }
+      },
+      "2208": {
+        "id": 2208,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Onions",
+        "buttonName": "Onions",
+        "itemName": "Onions",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2208.jpeg"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2209": {
+        "id": 2209,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Croutons",
+        "buttonName": "Croutons",
+        "itemName": "Croutons ",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2209.jpg"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2210": {
+        "id": 2210,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Tomato",
+        "buttonName": "Tomato",
+        "itemName": "Tomato",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2210.jpeg"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2211": {
+        "id": 2211,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Jalapenos",
+        "buttonName": "Jalapenos",
+        "itemName": "Jalapenos",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2211.png"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "2212": {
+        "id": 2212,
+        "typeID": "RECIPEMOD",
+        "textDesc": "Lettuce",
+        "buttonName": "Lettuce",
+        "itemName": "Lettuce",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/2212.png"
+        },
+        "upcharge": 145,
+        "extraTypeID": "SINGLE_ADD",
+        "displayOrder": 4,
+        "eoPortionDetailArray": {
+          "16": {
+            "portionID": 16,
+            "recipeFactor": 0.5
+          },
+          "17": {
+            "portionID": 17,
+            "recipeFactor": 2
+          }
+        }
+      },
+      "3000": {
+        "id": 3000,
+        "typeID": "MENUITEM",
+        "textDesc": "Famous Star With Cheese",
+        "buttonName": "Famous Star With Cheese",
+        "itemName": "Famous Star With Cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3000.jpg"
+        },
+        "displayOrder": 1,
+        "price": 585,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "isDisabled": true,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "isDisabled": true,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": true
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": true
+          }
+        ]
+      },
+      "3001": {
+        "id": 3001,
+        "typeID": "MENUITEM",
+        "textDesc": "Beyond Famous Star With Cheese",
+        "buttonName": "Beyond Famous Star With Cheese",
+        "itemName": "Beyond Famous Star With Cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3001.jpg"
+        },
+        "displayOrder": 2,
+        "price": 789,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8,
+            "isDisabled": true
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9,
+            "isDisabled": true
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": true
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": true
+          }
+        ]
+      },
+      "3002": {
+        "id": 3002,
+        "typeID": "MENUITEM",
+        "textDesc": "Super Star With Cheese",
+        "buttonName": "Super Star With Cheese",
+        "itemName": "Super Star With Cheese",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3002.jpeg"
+        },
+        "displayOrder": 3,
+        "price": 782,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": true
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": true
+          }
+        ]
+      },
+      "3010": {
+        "id": 3010,
+        "typeID": "MENUITEM",
+        "textDesc": "Western Bacon Cheese Burger",
+        "buttonName": "Western Bacon Cheese Burger",
+        "itemName": "Western Bacon Cheese Burger",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3010.jpg"
+        },
+        "displayOrder": 3,
+        "price": 725,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": true
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": false
+          }
+        ]
+      },
+      "3011": {
+        "id": 3011,
+        "typeID": "MENUITEM",
+        "textDesc": "Double Western Bacon Cheese Burger",
+        "buttonName": "Double Western Bacon Cheese Burger",
+        "itemName": "Double Western Bacon Cheese Burger",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3011.jpg"
+        },
+        "displayOrder": 3,
+        "price": 878,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": false
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": true
+          }
+        ]
+      },
+      "3012": {
+        "id": 3012,
+        "typeID": "MENUITEM",
+        "textDesc": "The Big Carl",
+        "buttonName": "The Big Carl",
+        "itemName": "The Big Carl",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3012.png"
+        },
+        "displayOrder": 3,
+        "price": 675,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 2,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": false
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": true
+          }
+        ]
+      },
+      "3013": {
+        "id": 3013,
+        "typeID": "MENUITEM",
+        "textDesc": "Big Hamburger",
+        "buttonName": "Big Hamburger",
+        "itemName": "Big Hamburger",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3013.jpg"
+        },
+        "displayOrder": 3,
+        "price": 285,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 2,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": true
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": false
+          }
+        ]
+      },
+      "3014": {
+        "id": 3014,
+        "typeID": "MENUITEM",
+        "textDesc": "Steakhouse Angus ThickBurger",
+        "buttonName": "Steakhouse Angus ThickBurger",
+        "itemName": "Steakhouse Angus ThickBurger",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3014.jpg"
+        },
+        "displayOrder": 3,
+        "price": 782,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2019,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7,
+            "isDisabled": true
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9,
+            "isDisabled": true
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": true
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": true
+          }
+        ]
+      },
+      "3015": {
+        "id": 3015,
+        "typeID": "MENUITEM",
+        "textDesc": "The 1/3LB. Original ThickBurger",
+        "buttonName": "The 1/3LB. Original ThickBurger",
+        "itemName": "The 1/3LB. Original ThickBurger",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3015.jpg"
+        },
+        "displayOrder": 3,
+        "price": 799,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": false
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": true
+          }
+        ]
+      },
+      "3016": {
+        "id": 3016,
+        "typeID": "MENUITEM",
+        "textDesc": "The 1/3LB. Guacamole Bacon ThickBurger",
+        "buttonName": "The 1/3LB. Guacamole Bacon ThickBurger",
+        "itemName": "The 1/3LB. Guacamole Bacon ThickBurger",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3016.jpg"
+        },
+        "displayOrder": 3,
+        "price": 925,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": true
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": false
+          }
+        ]
+      },
+      "3017": {
+        "id": 3017,
+        "typeID": "MENUITEM",
+        "textDesc": "The 1/3LB. Jalapeño",
+        "buttonName": "The 1/3LB. Jalapeño",
+        "itemName": "The 1/3LB. Jalapeño",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/3017.jpg"
+        },
+        "displayOrder": 3,
+        "price": 285,
+        "isItemLevelRecipe": false,
+        "calcRecipeArray": [
+          {
+            "id": 6002,
+            "ingrID": 2002,
+            "fqID": 7001,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 1
+          },
+          {
+            "id": 6003,
+            "ingrID": 2003,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 39,
+            "extraCharge": 0,
+            "displayOrder": 2
+          },
+          {
+            "id": 6004,
+            "ingrID": 2004,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 3
+          },
+          {
+            "id": 6005,
+            "ingrID": 2005,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 4
+          },
+          {
+            "id": 6006,
+            "ingrID": 2006,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 5
+          },
+          {
+            "id": 6007,
+            "ingrID": 2007,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 6
+          },
+          {
+            "id": 6008,
+            "ingrID": 2008,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 7
+          },
+          {
+            "id": 6009,
+            "ingrID": 2026,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 245,
+            "extraCharge": 0,
+            "displayOrder": 8
+          },
+          {
+            "id": 6010,
+            "ingrID": 2027,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 145,
+            "extraCharge": 0,
+            "displayOrder": 9
+          },
+          {
+            "id": 6011,
+            "ingrID": 2014,
+            "fqID": 7011,
+            "isPanel": true,
+            "isPortionEnabled": false,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 10
+          },
+          {
+            "id": 6012,
+            "ingrID": 2001,
+            "qnt": 1,
+            "fqID": 7000,
+            "isPanel": true,
+            "isPortionEnabled": true,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 11
+          },
+          {
+            "id": 6014,
+            "ingrID": 2200,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 13,
+            "isDisabled": false
+          },
+          {
+            "id": 6015,
+            "ingrID": 2201,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0,
+            "displayOrder": 14,
+            "isDisabled": false
+          }
+        ]
+      },
+      "4000": {
+        "id": 4000,
+        "typeID": "MENUITEM",
+        "textDesc": "Coke",
+        "buttonName": "Coke",
+        "itemName": "Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4000.png"
+        },
+        "displayOrder": 1,
+        "lkItemVarID": 400,
+        "childItemArray": {
+          "100": {
+            "varDetailID": 100,
+            "itemID": 5000
+          },
+          "101": {
+            "varDetailID": 101,
+            "itemID": 5001
+          },
+          "102": {
+            "varDetailID": 102,
+            "itemID": 5002
+          },
+          "103": {
+            "varDetailID": 103,
+            "itemID": 5003
+          }
+        },
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4001": {
+        "id": 4001,
+        "typeID": "MENUITEM",
+        "textDesc": "Diet Coke",
+        "buttonName": "Diet Coke",
+        "itemName": "Diet Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4001.png"
+        },
+        "displayOrder": 1,
+        "lkItemVarID": 400,
+        "childItemArray": {
+          "100": {
+            "varDetailID": 100,
+            "itemID": 5004
+          },
+          "101": {
+            "varDetailID": 101,
+            "itemID": 5005
+          },
+          "102": {
+            "varDetailID": 102,
+            "itemID": 5006
+          },
+          "103": {
+            "varDetailID": 103,
+            "itemID": 5007
+          }
+        },
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4002": {
+        "id": 4002,
+        "typeID": "MENUITEM",
+        "textDesc": "Sprite",
+        "buttonName": "Sprite",
+        "itemName": "Sprite",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4002.png"
+        },
+        "displayOrder": 1,
+        "lkItemVarID": 400,
+        "childItemArray": {
+          "100": {
+            "varDetailID": 100,
+            "itemID": 5008
+          },
+          "101": {
+            "varDetailID": 101,
+            "itemID": 5009
+          },
+          "102": {
+            "varDetailID": 102,
+            "itemID": 5010
+          },
+          "103": {
+            "varDetailID": 103,
+            "itemID": 5011
+          }
+        },
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4003": {
+        "id": 4003,
+        "typeID": "MENUITEM",
+        "textDesc": "Fanta Orange",
+        "buttonName": "Fanta Orange",
+        "itemName": "Fanta Orange",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4003.png"
+        },
+        "displayOrder": 1,
+        "lkItemVarID": 400,
+        "childItemArray": {
+          "100": {
+            "varDetailID": 100,
+            "itemID": 5012
+          },
+          "101": {
+            "varDetailID": 101,
+            "itemID": 5013
+          },
+          "102": {
+            "varDetailID": 102,
+            "itemID": 5014
+          },
+          "103": {
+            "varDetailID": 103,
+            "itemID": 5015
+          }
+        },
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4020": {
+        "id": 4020,
+        "typeID": "MENUITEM",
+        "textDesc": "Fuze Raspberry Tea",
+        "buttonName": "Fuze Raspberry Tea",
+        "itemName": "Fuze Raspberry Tea",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4020.png"
+        },
+        "displayOrder": 6,
+        "recipeModArray": {},
+        "calcRecipeArray": []
+      },
+      "4021": {
+        "id": 4021,
+        "typeID": "MENUITEM",
+        "textDesc": "Gold Peak Iced Tea",
+        "buttonName": "Gold Peak Iced Tea",
+        "itemName": "Gold Peak Iced Tea",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4021.png"
+        },
+        "displayOrder": 7,
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4022": {
+        "id": 4022,
+        "typeID": "MENUITEM",
+        "textDesc": "Coke Zero",
+        "buttonName": "Coke Zero",
+        "itemName": "Coke Zero",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4022.png"
+        },
+        "displayOrder": 8,
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4023": {
+        "id": 4023,
+        "typeID": "MENUITEM",
+        "textDesc": "Braq's Root Beer",
+        "buttonName": "Braq's Root Beer",
+        "itemName": "Braq's Root Beer",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4023.png"
+        },
+        "displayOrder": 9,
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4024": {
+        "id": 4024,
+        "typeID": "MENUITEM",
+        "textDesc": "Cherry Coke",
+        "buttonName": "Cherry Coke",
+        "itemName": "Cherry Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 13,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4024.png"
+        },
+        "displayOrder": 1,
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4025": {
+        "id": 4025,
+        "typeID": "MENUITEM",
+        "textDesc": "Dr. Pepper",
+        "buttonName": "Dr. Pepper",
+        "itemName": "Dr. Pepper",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 14,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4025.png"
+        },
+        "displayOrder": 1,
+        "lkItemVarID": 400,
+        "childItemArray": {
+          "101": {
+            "varDetailID": 101,
+            "itemID": 5090
+          },
+          "102": {
+            "varDetailID": 102,
+            "itemID": 5091
+          }
+        },
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4026": {
+        "id": 4026,
+        "typeID": "MENUITEM",
+        "textDesc": "Diet Dr. Pepper",
+        "buttonName": "Diet Dr. Pepper",
+        "itemName": "Diet Dr. Pepper",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 13,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4026.png"
+        },
+        "displayOrder": 1,
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4027": {
+        "id": 4027,
+        "typeID": "MENUITEM",
+        "textDesc": "Fanta Strawberry",
+        "buttonName": "Fanta Strawberry",
+        "itemName": "Fanta Strawberry",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 13,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/4027.png"
+        },
+        "displayOrder": 1,
+        "recipeModArray": {},
+        "calcRecipeArray": [
+          {
+            "id": 6001,
+            "ingrID": 2000,
+            "qnt": 1,
+            "isAddOn": true,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4040": {
+        "id": 4040,
+        "typeID": "MENUITEM",
+        "textDesc": "Crisscut Fries",
+        "buttonName": "Crisscut Fries",
+        "itemName": "Crisscut Fries",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/4040.jpeg"
+        },
+        "displayOrder": 1,
+        "childItemArray": {
+          "104": {
+            "varDetailID": 104,
+            "itemID": 5030
+          },
+          "105": {
+            "varDetailID": 105,
+            "itemID": 5031
+          },
+          "106": {
+            "varDetailID": 106,
+            "itemID": 5032
+          }
+        },
+        "isItemLevelRecipe": true,
+        "calcRecipeArray": [
+          {
+            "id": 6020,
+            "ingrID": 2202,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6021,
+            "ingrID": 2203,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6022,
+            "ingrID": 2204,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6023,
+            "ingrID": 2205,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4041": {
+        "id": 4041,
+        "typeID": "MENUITEM",
+        "textDesc": "Onion Rings",
+        "buttonName": "Onion Rings",
+        "itemName": "Onion Rings",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/4041.jpg"
+        },
+        "displayOrder": 1,
+        "childItemArray": {
+          "104": {
+            "varDetailID": 104,
+            "itemID": 5033
+          },
+          "105": {
+            "varDetailID": 105,
+            "itemID": 5034
+          },
+          "106": {
+            "varDetailID": 106,
+            "itemID": 5035
+          }
+        },
+        "isItemLevelRecipe": true,
+        "calcRecipeArray": []
+      },
+      "4042": {
+        "id": 4042,
+        "typeID": "MENUITEM",
+        "textDesc": "Fried Zucchini",
+        "buttonName": "Fried Zucchini",
+        "itemName": "Fried Zucchini",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/4042.jpeg"
+        },
+        "displayOrder": 1,
+        "childItemArray": {
+          "104": {
+            "varDetailID": 104,
+            "itemID": 5036
+          },
+          "105": {
+            "varDetailID": 105,
+            "itemID": 5037
+          },
+          "106": {
+            "varDetailID": 106,
+            "itemID": 5038
+          }
+        },
+        "isItemLevelRecipe": true,
+        "recipeModArray": {},
+        "calcRecipeArray": []
+      },
+      "4044": {
+        "id": 4044,
+        "typeID": "MENUITEM",
+        "textDesc": "Jalapeno Poppers 9 Piece",
+        "buttonName": "Jalapeno Poppers 9 Piece",
+        "itemName": "Jalapeno Poppers 9 Piece",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/4044.jpg"
+        },
+        "displayOrder": 1,
+        "price": 60,
+        "isItemLevelRecipe": true,
+        "calcRecipeArray": []
+      },
+      "4045": {
+        "id": 4045,
+        "typeID": "MENUITEM",
+        "textDesc": "Greek Salad",
+        "buttonName": "Greek Salad",
+        "itemName": "Greek Salad",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/4045.jpg"
+        },
+        "displayOrder": 1,
+        "price": 60,
+        "isItemLevelRecipe": true,
+        "calcRecipeArray": [
+          {
+            "id": 6024,
+            "ingrID": 2207,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6025,
+            "ingrID": 2208,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6026,
+            "ingrID": 2209,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6027,
+            "ingrID": 2210,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "4046": {
+        "id": 4046,
+        "typeID": "MENUITEM",
+        "textDesc": "Cobb Salad",
+        "buttonName": "Cobb Salad",
+        "itemName": "Cobb Salad",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/4046.jpg"
+        },
+        "displayOrder": 1,
+        "price": 60,
+        "isItemLevelRecipe": true,
+        "calcRecipeArray": [
+          {
+            "id": 6024,
+            "ingrID": 2207,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6025,
+            "ingrID": 2208,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6026,
+            "ingrID": 2209,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          },
+          {
+            "id": 6027,
+            "ingrID": 2210,
+            "qnt": 1,
+            "isAddOn": false,
+            "upcharge": 0,
+            "extraCharge": 0
+          }
+        ]
+      },
+      "5000": {
+        "id": 302,
+        "typeID": "MENUITEM",
+        "textDesc": "Small Coke",
+        "buttonName": "Small Coke",
+        "itemName": "Small Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5000"
+        },
+        "parentID": 4000,
+        "lkVarDetailID": 100,
+        "lkItemVarID": 400,
+        "price": 12
+      },
+      "5001": {
+        "id": 5001,
+        "typeID": "MENUITEM",
+        "textDesc": "Medium Coke",
+        "buttonName": "Medium Coke",
+        "itemName": "Medium Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5001"
+        },
+        "parentID": 4000,
+        "lkVarDetailID": 101,
+        "lkItemVarID": 400,
+        "price": 56
+      },
+      "5002": {
+        "id": 5002,
+        "typeID": "MENUITEM",
+        "textDesc": "Large Coke",
+        "buttonName": "Large Coke",
+        "itemName": "Large Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5002"
+        },
+        "parentID": 4000,
+        "lkVarDetailID": 102,
+        "lkItemVarID": 400,
+        "price": 80
+      },
+      "5003": {
+        "id": 5003,
+        "typeID": "MENUITEM",
+        "textDesc": "Extra Large Coke",
+        "buttonName": "Extra Large Coke",
+        "itemName": "Extra Lage Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5003"
+        },
+        "parentID": 4000,
+        "lkVarDetailID": 103,
+        "lkItemVarID": 400,
+        "price": 110
+      },
+      "5004": {
+        "id": 5004,
+        "typeID": "MENUITEM",
+        "textDesc": "Small Diet Coke",
+        "buttonName": "Small Diet Coke",
+        "itemName": "Small Diet Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5004"
+        },
+        "parentID": 4001,
+        "lkVarDetailID": 100,
+        "lkItemVarID": 400,
+        "price": 30
+      },
+      "5005": {
+        "id": 5005,
+        "typeID": "MENUITEM",
+        "textDesc": "Medium Diet Coke",
+        "buttonName": "Medium Diet Coke",
+        "itemName": "Medium Diet Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5005"
+        },
+        "parentID": 4001,
+        "lkVarDetailID": 101,
+        "lkItemVarID": 400,
+        "price": 110
+      },
+      "5006": {
+        "id": 5006,
+        "typeID": "MENUITEM",
+        "textDesc": "Large Diet Coke",
+        "buttonName": "Large Diet Coke",
+        "itemName": "Large Diet Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5006"
+        },
+        "parentID": 4001,
+        "lkVarDetailID": 102,
+        "lkItemVarID": 400,
+        "price": 56
+      },
+      "5007": {
+        "id": 5007,
+        "typeID": "MENUITEM",
+        "textDesc": "Extra Large Diet Coke",
+        "buttonName": "Extra Large Diet Coke",
+        "itemName": "Extra Large Diet Coke",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5007"
+        },
+        "parentID": 4001,
+        "lkVarDetailID": 103,
+        "lkItemVarID": 400,
+        "price": 95
+      },
+      "5008": {
+        "id": 5003,
+        "typeID": "MENUITEM",
+        "textDesc": "Small Sprite",
+        "buttonName": "Small Sprite",
+        "itemName": "Small Sprite",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5003"
+        },
+        "parentID": 4002,
+        "lkVarDetailID": 100,
+        "lkItemVarID": 400,
+        "price": 120
+      },
+      "5009": {
+        "id": 5009,
+        "typeID": "MENUITEM",
+        "textDesc": "Medium Sprite",
+        "buttonName": "Medium Sprite",
+        "itemName": "Medium Sprite",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5009"
+        },
+        "parentID": 4002,
+        "lkVarDetailID": 101,
+        "lkItemVarID": 400,
+        "price": 50
+      },
+      "5010": {
+        "id": 5010,
+        "typeID": "MENUITEM",
+        "textDesc": "Large Sprite",
+        "buttonName": "Large Sprite",
+        "itemName": "Large Sprite",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5010"
+        },
+        "parentID": 4002,
+        "lkVarDetailID": 102,
+        "lkItemVarID": 400,
+        "price": 90
+      },
+      "5011": {
+        "id": 5011,
+        "typeID": "MENUITEM",
+        "textDesc": "Extra Large Sprite",
+        "buttonName": "Extra Large Sprite",
+        "itemName": "Extra Large Sprite",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5011"
+        },
+        "parentID": 4002,
+        "lkVarDetailID": 103,
+        "lkItemVarID": 400,
+        "price": 130
+      },
+      "5012": {
+        "id": 5012,
+        "typeID": "MENUITEM",
+        "textDesc": "Small Fanta Orange",
+        "buttonName": "Small Fanta Orange",
+        "itemName": "Small Fanta Orange",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5012"
+        },
+        "parentID": 4003,
+        "lkVarDetailID": 100,
+        "lkItemVarID": 400,
+        "price": 20
+      },
+      "5013": {
+        "id": 5013,
+        "typeID": "MENUITEM",
+        "textDesc": "Medium Fanta Orange",
+        "buttonName": "Medium Fanta Orange",
+        "itemName": "Medium Fanta Orange",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5013"
+        },
+        "parentID": 4003,
+        "lkVarDetailID": 101,
+        "lkItemVarID": 400,
+        "price": 50
+      },
+      "5014": {
+        "id": 5014,
+        "typeID": "MENUITEM",
+        "textDesc": "Large Fanta Orange",
+        "buttonName": "Large Fanta Orange",
+        "itemName": "Large Fanta Orange",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5014"
+        },
+        "parentID": 4003,
+        "lkVarDetailID": 102,
+        "lkItemVarID": 400,
+        "price": 90
+      },
+      "5015": {
+        "id": 5015,
+        "typeID": "MENUITEM",
+        "textDesc": "Extra Large Fanta Orange",
+        "buttonName": "Extra Large Fanta Orange",
+        "itemName": "Extra Large Fanta Orange",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/drink/5015"
+        },
+        "parentID": 4003,
+        "lkVarDetailID": 103,
+        "lkItemVarID": 400,
+        "price": 130
+      },
+      "5030": {
+        "id": 5030,
+        "typeID": "MENUITEM",
+        "textDesc": "Small Crisscut Fries",
+        "buttonName": "Small Crisscut Fries",
+        "itemName": "Small Crisscut Fries",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5030"
+        },
+        "parentID": 4040,
+        "lkVarDetailID": 104,
+        "lkItemVarID": 401,
+        "price": 10
+      },
+      "5031": {
+        "id": 5031,
+        "typeID": "MENUITEM",
+        "textDesc": "Medium Crisscut Fries",
+        "buttonName": "Meidum Crisscut Fries",
+        "itemName": "Medium Crisscut Fries",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5031"
+        },
+        "parentID": 4040,
+        "lkVarDetailID": 105,
+        "lkItemVarID": 401,
+        "price": 89
+      },
+      "5032": {
+        "id": 5032,
+        "typeID": "MENUITEM",
+        "textDesc": "Large Crisscut Fries",
+        "buttonName": "Large Crisscut Fries",
+        "itemName": "Large Crisscut Fries",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5032"
+        },
+        "parentID": 4040,
+        "lkVarDetailID": 106,
+        "lkItemVarID": 401,
+        "price": 99
+      },
+      "5033": {
+        "id": 5033,
+        "typeID": "MENUITEM",
+        "textDesc": "Small Onion Rings",
+        "buttonName": "Small Onion Rings",
+        "itemName": "Small Onion Rings",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5033"
+        },
+        "parentID": 4041,
+        "lkVarDetailID": 104,
+        "lkItemVarID": 401,
+        "price": 55
+      },
+      "5034": {
+        "id": 5034,
+        "typeID": "MENUITEM",
+        "textDesc": "Medium Onion Rings",
+        "buttonName": "Medium Onion Rings",
+        "itemName": "Medium Onion Rings",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5034"
+        },
+        "parentID": 4041,
+        "lkVarDetailID": 105,
+        "lkItemVarID": 401,
+        "price": 60
+      },
+      "5035": {
+        "id": 5035,
+        "typeID": "MENUITEM",
+        "textDesc": "Large Onion Rings",
+        "buttonName": "Large Onion Rings",
+        "itemName": "Large Onion Rings",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5035"
+        },
+        "parentID": 4041,
+        "lkVarDetailID": 106,
+        "lkItemVarID": 401,
+        "price": 130
+      },
+      "5036": {
+        "id": 5036,
+        "typeID": "MENUITEM",
+        "textDesc": "Small Fried Zucchini",
+        "buttonName": "Small Fried Zucchini",
+        "itemName": "Small Fried Zucchini",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5036"
+        },
+        "parentID": 4042,
+        "lkVarDetailID": 104,
+        "lkItemVarID": 401,
+        "price": 65
+      },
+      "5037": {
+        "id": 5037,
+        "typeID": "MENUITEM",
+        "textDesc": "Medium Fried Zucchini",
+        "buttonName": "Medium Fried Zucchini",
+        "itemName": "Medium Fried Zucchini",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5037"
+        },
+        "parentID": 4040,
+        "lkVarDetailID": 105,
+        "lkItemVarID": 401,
+        "price": 80
+      },
+      "5038": {
+        "id": 5038,
+        "typeID": "MENUITEM",
+        "textDesc": "Large Fried Zucchini",
+        "buttonName": "Large Fried Zucchini",
+        "itemName": "Large Fried Zucchini",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5038"
+        },
+        "parentID": 4042,
+        "lkVarDetailID": 106,
+        "lkItemVarID": 401,
+        "price": 99
+      },
+      "5090": {
+        "id": 5090,
+        "typeID": "MENUITEM",
+        "textDesc": "Medium Dr. Pepper",
+        "buttonName": "Medium Dr. Pepper",
+        "itemName": "Medium Dr. Pepper",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5090"
+        },
+        "parentID": 4025,
+        "lkVarDetailID": 101,
+        "lkItemVarID": 400,
+        "price": 99
+      },
+      "5091": {
+        "id": 5091,
+        "typeID": "MENUITEM",
+        "textDesc": "Large Dr. Pepper",
+        "buttonName": "Large Dr. Pepper",
+        "itemName": "Large Dr. Pepper",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/5091"
+        },
+        "parentID": 4025,
+        "lkVarDetailID": 102,
+        "lkItemVarID": 400,
+        "price": 199
+      },
+      "7000": {
+        "id": 7000,
+        "typeID": "FQ",
+        "textDesc": "Cheese Group",
+        "buttonName": "Cheese Group",
+        "itemName": "Cheese Group",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/7000"
+        },
+        "displayOrder": 13,
+        "minQnt": 1,
+        "maxQnt": 2,
+        "priceAdjQnt": 0,
+        "priceAdjAmount": 0,
+        "itemArray": [
+          2001,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013
+        ]
+      },
+      "7001": {
+        "id": 7001,
+        "typeID": "FQ",
+        "textDesc": "Seeded Bun",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/7001"
+        },
+        "displayOrder": 14,
+        "minQnt": 1,
+        "maxQnt": 1,
+        "priceAdjQnt": 0,
+        "priceAdjAmount": 0,
+        "itemArray": [
+          2002,
+          2019
+        ]
+      },
+      "7010": {
+        "id": 7010,
+        "typeID": "FQ",
+        "textDesc": "Select Dressing",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/sides/7010"
+        },
+        "displayOrder": 14,
+        "minQnt": 1,
+        "maxQnt": 3,
+        "priceAdjQnt": 0,
+        "priceAdjAmount": 0,
+        "itemArray": [
+          2207,
+          2208,
+          2210,
+          2211,
+          2212
+        ]
+      },
+      "7011": {
+        "id": 7011,
+        "typeID": "FQ",
+        "textDesc": "Select Patty",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/7011"
+        },
+        "displayOrder": 14,
+        "minQnt": 1,
+        "maxQnt": 2,
+        "priceAdjQnt": 0,
+        "priceAdjAmount": 0,
+        "defaultItem": 2015,
+        "itemArray": [
+          2014,
+          2015,
+          2206
+        ]
+      },
+      "8000": {
+        "id": 8000,
+        "typeID": "FQ",
+        "textDesc": "Temperature",
+        "buttonName": "Temperature",
+        "itemName": "Temperature",
+        "style": {
+          "bg": "#4444",
+          "color": "#FFFF",
+          "fontSize": 12,
+          "imgUrl": "https://cdn.hubworks.com/plumpos/dev/cvo/img/burger/8000"
+        },
+        "displayOrder": 13,
+        "minQnt": 1,
+        "maxQnt": 1,
+        "priceAdjQnt": 0,
+        "priceAdjAmount": 0,
+        "defaultItem": 2024,
+        "itemArray": [
+          2023,
+          2024,
+          2025
+        ]
+      }
+    }
+  }
+}
