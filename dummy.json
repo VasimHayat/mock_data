@@ -1,6 +1,6 @@
 [
         {
-          "staticPageUrl": "https://hubworks.com/zip-shiftbook.html",
+          "staticPageUrl": "https://hub_works.com/zip-shiftbook.html",
           "appName": "Zip Shift Book",
           "isDisabled": false,
           "isActive": true,
@@ -31,28 +31,28 @@
           "primaryKey": 51
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-clock.html",
+          "staticPageUrl": "https://hub_works.com/zip-clock.html",
           "appName": "Zip Clock",
           "isDisabled": false,
           "isActive": true,
           "primaryKey": 2
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-forecast.html",
+          "staticPageUrl": "https://hub_works.com/zip-forecast.html",
           "appName": "Zip Forecast",
           "isDisabled": false,
           "isActive": true,
           "primaryKey": 6
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-haccp.html",
+          "staticPageUrl": "https://hub_works.com/zip-haccp.html",
           "appName": "Zip HACCP",
           "isDisabled": false,
           "isActive": true,
           "primaryKey": 11
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-inventory.html",
+          "staticPageUrl": "https://hub_works.com/zip-inventory.html",
           "appName": "Zip Inventory",
           "isDisabled": false,
           "isActive": true,
@@ -65,7 +65,7 @@
           "primaryKey": 21
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-ordering.html",
+          "staticPageUrl": "https://hub_works.com/zip-ordering.html",
           "appName": "Zip Ordering",
           "isDisabled": false,
           "isActive": true,
@@ -78,14 +78,14 @@
           "primaryKey": 17
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-schedules.html",
+          "staticPageUrl": "https://hub_works.com/zip-schedules.html",
           "appName": "Zip Schedules",
           "isDisabled": false,
           "isActive": true,
           "primaryKey": 1
         },
         {
-          "staticPageUrl": "https://hubworks.com/autogas.html",
+          "staticPageUrl": "https://hub_works.com/autogas.html",
           "appName": "Auto Gas",
           "isDisabled": false,
           "isActive": false,
@@ -104,7 +104,7 @@
           "primaryKey": 15
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-posdashboard.html",
+          "staticPageUrl": "https://hubwhub_worksorks.com/zip-posdashboard.html",
           "appName": "Zip POS Dashboard_Old",
           "isDisabled": false,
           "isActive": false,
@@ -117,14 +117,14 @@
           "primaryKey": 16
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-checklist.html",
+          "staticPageUrl": "https://hub_works.com/zip-checklist.html",
           "appName": "Zip Checklist",
           "isDisabled": false,
           "isActive": true,
           "primaryKey": 3
         },
         {
-          "staticPageUrl": "https://hubworks.com/zip-reporting.html",
+          "staticPageUrl": "https://hub_works.com/zip-reporting.html",
           "appName": "Zip Reporting",
           "isDisabled": false,
           "isActive": true,
