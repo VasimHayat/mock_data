@@ -1,0 +1,131 @@
+{
+  "menuDataHash": {
+    "menuData": {
+      "isEnableOnUI": true,
+      "labelIDArray": [
+        "Menu_ZipSch_Owner_Enterprise_LBL",
+        "Menu_ZipSch_Owner_Enterprise_HVR",
+        "Zip_Schedule_LBL",
+        "Menu_ZipSch_Owner_Enterprise_LBL",
+        "Menu_ZipSch_Owner_Enterprise_HVR",
+        "Zip_Schedule_LBL",
+        "Zip_Schedule_LBL"
+      ],
+      "menuItemArray": [
+        {
+          "isEnableOnUI": true,
+          "labelIDArray": [
+            "Menu_Home_LBL",
+            "Menu_Home_HVR",
+            "Menu_Home_LBL",
+            "Menu_Home_LBL",
+            "Menu_Home_HVR",
+            "Menu_Home_LBL",
+            "Menu_Home_HVR"
+          ],
+          "menuItemArray": [],
+          "showBreadcrum": false,
+          "isActive": true,
+          "textColor": "#ffff",
+          "url": "zip/main/dashboard",
+          "isWalkthruConfigured": false,
+          "showDropIcon": false,
+          "menuIdentifierText": "Dashboard",
+          "name": "Menu_Home_LBL",
+          "recalAccess": false,
+          "smallIcon": "fn-global-home",
+          "fontIcon": "fn-global-home",
+          "applicablePK": 0,
+          "isDisabled": false,
+          "id": "Menu_Home",
+          "applicableIDArray": [],
+          "hideLabel": false
+        },
+        {
+          "isEnableOnUI": true,
+          "labelIDArray": [
+            "Menu_Emp_LBL",
+            "Menu_Emp_HVR",
+            "Employees_LBL",
+            "Menu_Emp_LBL",
+            "Menu_Emp_HVR",
+            "Menu_Emp_LBL",
+            "Menu_Emp_HVR"
+          ],
+          "menuItemArray": [],
+          "showBreadcrum": false,
+          "pageID": "EOEmpMain_Search_001",
+          "isActive": true,
+          "textColor": "#ffff",
+          "url": "zip/main/employee",
+          "isWalkthruConfigured": false,
+          "showDropIcon": false,
+          "menuIdentifierText": "Employee",
+          "hrefClass": "dropdown-toggle",
+          "name": "Employees_LBL",
+          "recalAccess": false,
+          "smallIcon": "fn-global-zipCheckList",
+          "fontIcon": "fn-global-zipCheckList",
+          "applicablePK": 0,
+          "isDisabled": false,
+          "id": "Menu_Emp",
+          "applicableIDArray": [],
+          "hideLabel": false
+        },
+        {
+          "isEnableOnUI": true,
+          "bigIcon": "assets/images/zipSchedule/svg_imgs/schedule.svg",
+          "labelIDArray": [
+            "Menu_Schedule_LBL",
+            "Menu_Schedule_HVR",
+            "Schedule_LBL",
+            "Schedule_HelpText_LBL",
+            "Menu_Schedule_LBL",
+            "Menu_Schedule_HVR",
+            "Menu_Schedule_LBL",
+            "Menu_Schedule_HVR"
+          ],
+          "menuItemArray": [],
+          "showBreadcrum": false,
+          "isActive": true,
+          "textColor": "#ffff",
+          "url": "zip/main/schedule",
+          "isWalkthruConfigured": true,
+          "showDropIcon": false,
+          "menuIdentifierText": "Components",
+          "helpTextLBL": "Schedule_HelpText_LBL",
+          "name": "Schedule_LBL",
+          "recalAccess": false,
+          "smallIcon": "fn-global-employee",
+          "fontIcon": "fn-global-employee",
+          "applicablePK": 0,
+          "isDisabled": false,
+          "id": "Menu_Schedule",
+          "applicableIDArray": [],
+          "hideLabel": false
+        }
+      ],
+      "showBreadcrum": false,
+      "isActive": true,
+      "textColor": "#ffff",
+      "parentID": "Menu_ZipSch_Owner_Enterprise",
+      "isWalkthruConfigured": false,
+      "menuItemIDArray": [
+        "Menu_Home",
+        "Menu_Schedule",
+        "Menu_Emp"
+      ],
+      "showDropIcon": false,
+      "hrefClass": "dropdown-toggle",
+      "name": "Zip_Schedule_LBL",
+      "recalAccess": false,
+      "isCustomMenu": false,
+      "applicablePK": 0,
+      "isDisabled": false,
+      "id": "Menu_ZipSch_Owner_Standard",
+      "applicableIDArray": [],
+      "hideLabel": false
+    }
+  }
+  
+}
